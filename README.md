@@ -20,7 +20,7 @@ La API está construida con Spring Boot y utiliza MongoDB como base de datos. Of
 ## Estructura del Proyecto
 
 ```
-proyecto-franquicias/
+franquicias-api/
 src/
 ├── main/
 │ ├── java/
