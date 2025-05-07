@@ -20,7 +20,7 @@ La API está construida con Spring Boot y utiliza MongoDB como base de datos. Of
 ## Estructura del Proyecto
 
 ```
-franquicias-api/
+proyecto-franquicias/
 src/
 ├── main/
 │ ├── java/
@@ -73,7 +73,7 @@ terraform apply
 
 1. Clone este repositorio:
    ```bash
-   git clone https://github.com/KRlegend7/franquicias-api.git
+   git clone https://github.com/tu-usuario/franquicias-api.git
    cd franquicias-api
    ```
 

@@ -1,0 +1,30 @@
+# Archivo: docker-compose.yml
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "8080:8080"
+    depends_on:
+      - mongodb
+    environment:
+      - SPRING_DATA_MONGODB_URI=mongodb://mongodb:27017/franquicias
+    networks:
+      - franquicias-network
+
+  mongodb:
+    image: mongo:5.0
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb-data:/data/db
+    networks:
+      - franquicias-network
+
+networks:
+  franquicias-network:
+    driver: bridge
+
+volumes:
+  mongodb-data:
