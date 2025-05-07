@@ -73,7 +73,7 @@ terraform apply
 
 1. Clone este repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/franquicias-api.git
+   git clone https://github.com/krlegend7/franquicias-api.git
    cd franquicias-api
    ```
 
